@@ -1,0 +1,40 @@
+body
+{
+    background-color:silver;
+    font-size: 30px;
+}
+header
+{
+    width: 10%;
+    display: inline;
+    float: left;
+}
+main
+{
+    display: flex;
+    padding: 90px;
+    padding-left:300px ;
+
+}
+main div img
+{
+    height: 90px;
+    padding-right: 200px;
+    
+}
+main nav
+{
+    display: inline;
+    float: right;
+    
+}
+main li a {
+    text-decoration: none;
+    list-style: none;
+}
+main ul>li {
+    display: inline;
+}
+main li + li {
+    margin: 10px;
+}
